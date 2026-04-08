@@ -21,11 +21,11 @@
         <button class="button" onclick="addWaffl()">Order!</button>
 
         <p id="wafflPlate">Plate</p>
-        
+
         <script>
             function addWaffl() {
                 let element = document.getElementById("wafflPlate");
-                element.innerHTML = "Waffl<br>" + element;
+                element.innerHTML = "Waffl<br>" + document.getElementById("wafflPlate").innerHTML;
             }
         </script>
 
