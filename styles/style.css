@@ -51,9 +51,17 @@ h1,h2,h3,h4,h5,h6 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: black;
+    text-align:center;
+}
+.link {
+    font-family: "Kalam", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #4292c7;
 }
-.button:hover {
+.link:hover {
     cursor:pointer;
     border: 2px solid black;
 }
