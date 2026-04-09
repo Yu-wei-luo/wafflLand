@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
     text-indent: 0%;
 }
 
-.button {
+button {
     font-family: "Kalam", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
