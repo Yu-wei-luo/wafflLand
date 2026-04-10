@@ -35,7 +35,7 @@
                 document.getElementById("wafflPlate").innerHTML = "Plate";
                 let orderCount = document.getElementById("orderCounter");
                 let eatenCount = document.getElementById("eatenCounter");
-                eatenCount.innerHTML += orderCount.innerHTML;
+                eatenCount.innerHTML += parseInt(orderCount.innerHTML);
                 orderCount.innerHTML = 0;
             }
         </script>
