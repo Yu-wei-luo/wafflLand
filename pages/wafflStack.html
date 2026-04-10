@@ -28,8 +28,8 @@
             function addWaffl() {
                 let element = document.getElementById("wafflPlate");
                 element.innerHTML = "Waffl<br>" + document.getElementById("wafflPlate").innerHTML;
-                let orderCount = Number(document.getElementById("orderCounter"));
-                element.innerHTML ++;
+                let orderCount = document.getElementById("orderCounter");
+                orderCount.innerHTML ++;
             }
             function eatWaffl() {
                 document.getElementById("wafflPlate").innerHTML = "Plate";
