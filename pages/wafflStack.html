@@ -28,13 +28,13 @@
             function addWaffl() {
                 let element = document.getElementById("wafflPlate");
                 element.innerHTML = "Waffl<br>" + document.getElementById("wafflPlate").innerHTML;
-                let orderCount = document.getElementById("orderCounter");
+                let orderCount = Number(document.getElementById("orderCounter"));
                 element.innerHTML ++;
             }
             function eatWaffl() {
                 document.getElementById("wafflPlate").innerHTML = "Plate";
-                let orderCount = document.getElementById("orderCounter");
-                let eatenCount = document.getElementById("eatenCounter");
+                let orderCount = Number(document.getElementById("orderCounter"));
+                let eatenCount = Number(document.getElementById("eatenCounter"));
                 eatenCount.innerHTML += orderCount;
                 orderCount.innerHTML = 0;
             }
