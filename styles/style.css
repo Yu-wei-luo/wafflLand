@@ -1,11 +1,7 @@
 body {
     padding: 5%;
 
-    background-image: url(/wafflLand/images/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #d8b573;
 }
 .main {
     margin: auto;
