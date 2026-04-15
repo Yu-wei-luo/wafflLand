@@ -3,19 +3,27 @@ body {
 
     background-color: #EFCD8E;
 
+    text-align: center;
     font-family: "Sour Gummy", sans-serif;
 }
 header {
-    max-width: max-content;
+    max-width: fit-content;
     max-height: max-content;
+
+    padding: 5%;
 
     border-radius: 8px;
     background-color: #ddb56a;
 
-    text-align:center;
     font-family: "Noto Serif", serif;
 }
 footer {
+    max-width: fit-content;
+    max-height: fit-content;
+
     margin-top: 1000px;
-    text-align:center;
+    padding: 5%;
+    
+    border-radius: 8px;
+    background-color: #ddb56a;
 }
