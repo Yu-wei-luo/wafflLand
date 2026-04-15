@@ -8,5 +8,6 @@ header {
     font-family: "Noto Serif", serif;
 }
 footer {
+    margin-top: 100px;
     text-align:center;
 }
