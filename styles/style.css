@@ -6,6 +6,9 @@ body {
     font-family: "Sour Gummy", sans-serif;
 }
 header {
+    max-width: max-content;
+    max-height: max-content;
+
     border-radius: 8px;
     background-color: #ddb56a;
 
