@@ -9,7 +9,9 @@ body {
 }
 .main {
     margin: auto;
+    padding: 5%;
 
+    border-radius: 7.5%;
     background-color: #EFCD8E; 
 
     text-align: center;
@@ -31,7 +33,7 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
 
-    border-radius: 5%;
+    border-radius: 7.5%;
     background-color: #b78846;
 
     font-family: "Noto Serif", serif;
@@ -49,7 +51,7 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
     
-    border-radius: 5%;
+    border-radius: 7.5%;
     background-color: #b78846;
 }
 footer {
@@ -67,6 +69,6 @@ footer {
     padding-top: 1%;
     padding-bottom: 1%;
     
-    border-radius: 5%;
+    border-radius: 7.5%;
     background-color: #ddb56a;
 }
