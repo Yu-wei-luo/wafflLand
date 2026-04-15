@@ -1,13 +1,18 @@
 body {
     padding: 10%;
+
     background-color: #EFCD8E;
+
     font-family: "Sour Gummy", sans-serif;
 }
 header {
+    border-radius: 8px;
+    background-color: #ddb56a;
+
     text-align:center;
     font-family: "Noto Serif", serif;
 }
 footer {
-    margin-top: 100px;
+    margin-top: 1000px;
     text-align:center;
 }
