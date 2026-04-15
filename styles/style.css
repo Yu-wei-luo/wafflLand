@@ -1,7 +1,16 @@
 body {
     padding: 5%;
 
-    background-color: #EFCD8E;
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    margin: auto;
+
+    background-color: #EFCD8E; 
 
     text-align: center;
     font-family: "Sour Gummy", sans-serif;
@@ -23,7 +32,7 @@ header {
     padding-bottom: 1%;
 
     border-radius: 5%;
-    background-color: #ddb56a;
+    background-color: #b78846;
 
     font-family: "Noto Serif", serif;
 }
@@ -41,7 +50,7 @@ header {
     padding-bottom: 1%;
     
     border-radius: 5%;
-    background-color: #ddb56a;
+    background-color: #b78846;
 }
 footer {
     font-size: small;
