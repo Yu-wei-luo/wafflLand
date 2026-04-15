@@ -33,8 +33,8 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
 
-    border-radius: 7.5%;
-    background-color: #eedfc3;
+    border-radius: 10px;
+    background-color: #ffdd9d;
 
     font-family: "Noto Serif", serif;
 }
@@ -51,8 +51,8 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
     
-    border-radius: 7.5%;
-    background-color: #eedfc3;
+    border-radius: 10px;
+    background-color: #ffdd9d;
 }
 footer {
     font-size: small;
@@ -69,6 +69,6 @@ footer {
     padding-top: 1%;
     padding-bottom: 1%;
     
-    border-radius: 7.5%;
-    background-color: #eedfc3;
+    border-radius: 10px;
+    background-color: #ffdd9d;
 }
