@@ -5,8 +5,12 @@ body {
 
     text-align: center;
     font-family: "Sour Gummy", sans-serif;
+    font-size: medium;
 }
 header {
+    font-size: large;
+}
+.header {
     max-width: fit-content;
     max-height: fit-content;
 
@@ -40,6 +44,9 @@ header {
     background-color: #ddb56a;
 }
 footer {
+    font-size: small;
+}
+.footer {
     max-width: fit-content;
     max-height: fit-content;
 
