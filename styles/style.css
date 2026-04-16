@@ -2,6 +2,8 @@ body {
     padding: 5%;
 
     background-color: #d8b573;
+
+    font-family: "Sour Gummy", sans-serif;
 }
 .main {
     margin: auto;
@@ -11,7 +13,6 @@ body {
     background-color: #efcd8e; 
 
     text-align: center;
-    font-family: "Sour Gummy", sans-serif;
     font-size: medium;
 }
 header {
@@ -31,8 +32,6 @@ header {
 
     border-radius: 10px;
     background-color: #ffdd9d;
-
-    font-family: "Noto Serif", serif;
 }
 .container {
     max-width: fit-content;
