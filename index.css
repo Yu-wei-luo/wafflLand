@@ -6,6 +6,8 @@
     display:flex;
 }
 .container div {
+    min-width: fit-content;
+
     margin: 3%;
     padding: 3%;
     border-radius: 10px;
