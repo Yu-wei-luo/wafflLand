@@ -8,6 +8,7 @@
 }
 .container div {
     min-width: fit-content;
+    max-width: auto;
 
     margin: 3%;
     padding: 3%;
