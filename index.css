@@ -1,5 +1,6 @@
 .container {
     border-radius: none;
+    justify-content: center;
 
     background-color: #efcd8e;
 

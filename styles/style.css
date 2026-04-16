@@ -12,6 +12,7 @@ body {
     border-radius: 20px;
     background-color: #efcd8e; 
 
+    justify-content: center;
     text-align: center;
     font-size: medium;
 }
