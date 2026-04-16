@@ -1,10 +1,14 @@
 .container {
     border-radius: none;
+
     background-color: #efcd8e;
 
     display:flex;
 }
 .container div {
+    margin: 3%;
+    padding: 3%;
     border-radius: 10px;
+
     background-color: #ffdd9d;
 }
