@@ -9,14 +9,14 @@
 }
 .container > div {
     flex: 1;
-    width: max-content
+    width: max-content;
 
     margin: 3%;
     padding: 3%;
 }
 .container > div .waffle {
     flex: 1;
-    width: max-content
+    width: max-content;
 
     margin: 3%;
     padding: 3%;
