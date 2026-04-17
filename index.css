@@ -9,6 +9,7 @@
 }
 .container > div {
     flex: 1;
+    justify-content: center;
 
     margin: 3%;
     padding: 3%;
@@ -25,7 +26,6 @@
 .container > div .butter {
     flex: 0 0 40%;
     max-width: 40%;
-    justify-content: center;
 
     margin: 3%;
     padding: 3%;
