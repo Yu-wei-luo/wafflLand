@@ -7,15 +7,17 @@
     justify-content: center;
     align-items: flex-end;
 }
-.container div {
+.container > div {
     flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
 
     margin: 3%;
     padding: 3%;
 }
-.container div .waffle {
+.container > div .waffle {
     flex: 1;
-    flex-basis: 50%;
 
     margin: 3%;
     padding: 3%;
@@ -23,8 +25,9 @@
 
     background-color: #ffdd9d;
 }
-.container div .butter {
-    flex: 1;
+.container > div .butter {
+    flex: 0 0 50%;
+    max-width: 50%;
 
     margin: 3%;
     padding: 3%;
