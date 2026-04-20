@@ -12,6 +12,8 @@
 
     margin: 3%;
     padding: 3%;
+
+    min-width: 10%;
 }
 .container > div .waffle {
     flex: 1;
