@@ -20,8 +20,10 @@ header {
     font-size: large;
 }
 .header {
-    max-width: min-content;
-    max-height: min-content;
+    max-width: max-content;
+    max-height: max-content;
+    min-width: auto;
+    max-width: auto;
 
     margin-left: auto;
     margin-right: auto;
@@ -35,8 +37,10 @@ header {
     background-color: #ffdd9d;
 }
 .container {
-    max-width: min-content;
-    max-height: min-content;
+    max-width: max-content;
+    max-height: max-content;
+    min-width: auto;
+    max-width: auto;
 
     margin-left: auto;
     margin-right: auto;
@@ -54,8 +58,10 @@ footer {
     font-size: small;
 }
 .footer {
-    max-width: min-content;
-    max-height: min-content;
+    max-width: max-content;
+    max-height: max-content;
+    min-width: auto;
+    max-width: auto;
 
     margin-left: auto;
     margin-right: auto;
