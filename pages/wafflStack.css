@@ -5,7 +5,7 @@
 
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 
     max-width: max-content;
     width: 100%;
