@@ -17,9 +17,9 @@ function eatWaffl() {
 
     if (container.lastElementChild != null) {
         container.removeChild(container.lastElementChild);
-    }
 
-    eatenCount ++;
+        eatenCount ++;
+    }
 
     const counter = document.getElementById("eatenCounter");
     counter.innerHTML = eatenCount;
