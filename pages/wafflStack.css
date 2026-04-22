@@ -8,6 +8,7 @@
     align-items: flex-end;
 }
 .container > div {
+    display: flex;
     flex: 1;
 
     margin: 3%;
