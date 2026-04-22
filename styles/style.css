@@ -2,6 +2,7 @@ body {
     padding: 5%;
 
     background-color: #d8b573;
+    color: #181005;
 
     font-family: "Sour Gummy", sans-serif;
 }
@@ -53,6 +54,9 @@ header {
     
     border-radius: 10px;
     background-color: #ffdd9d;
+}
+button {
+    background-color: whitesmoke;
 }
 footer {
     font-size: small;
