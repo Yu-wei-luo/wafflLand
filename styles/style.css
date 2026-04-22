@@ -40,12 +40,9 @@ header {
     background-color: #ffdd9d;
 }
 .container {
-    max-width: fit-content;
+    width: 100%;
     max-height: fit-content;
-    min-width: auto;
 
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
     padding-left: 5%;
