@@ -38,20 +38,16 @@
     align-items: center;
     justify-content: center;
 }
-.container .plate {
-    flex: 0 0 150%;
-    max-width: 150%;
-
-    margin: auto;
-    padding: 3%;
-    border-radius: 5px;
-
-    background-color: #efeeff;
+.container .stack {
+    display: flex;
+    flex-direction: column;
 }
 .container .stack .waffl {
+    flex: 1;
+
     margin: 3%;
     padding: 3%;
     border-radius: 5px;
-    
+
     background-color: #ffdd9d;
 }
