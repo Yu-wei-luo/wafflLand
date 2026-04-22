@@ -45,8 +45,6 @@
     align-items: flex-end;
 }
 .container .order .plating {
-    flex: 1;
-
     flex: 0 0 40%;
     max-width: 40%;
 
@@ -55,6 +53,7 @@
     border-radius: 5px;
 
     background-color: #d1d9e2;
+    color: #b4bfcc;
 }
 .container .order .stack {
     flex: 1;
@@ -74,4 +73,5 @@
     border-radius: 5px;
 
     background-color: #ffdd9d;
+    color: #ffe6b7;
 }
