@@ -45,8 +45,9 @@
     align-items: flex-end;
 }
 .container .order .plating {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 1;
+
+    min-width: 300%;
 
     margin: 5%;
     padding: 10%;
@@ -66,7 +67,7 @@
 .container .order .stack .waffl {
     flex: 1;
 
-    min-width: fit-content;
+    min-width: 250%;
 
     margin: 5%;
     padding: 10%;
