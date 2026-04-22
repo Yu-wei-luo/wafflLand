@@ -1,8 +1,4 @@
 .container {
-    border-radius: none;
-
-    background-color: #efcd8e;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +39,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    min-width: auto;
+    max-width: fit-content;
+    
+
+    margin: 3%;
+    padding: 3%;
+    border-radius: 5px;
+
+    background-color: #ffdd9d;
 }
 .container .order .plating {
     flex: 1;
