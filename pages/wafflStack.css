@@ -2,12 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    width: 100%;
 }
 .container > div {
     display: flex;
-    flex: 1;
+    flex: 0;
     min-width: fit-content;
 
     margin: 3%;
