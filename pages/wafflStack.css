@@ -10,6 +10,8 @@
 .container > div {
     display: flex;
     flex: 1;
+    min-width: auto;
+    max-width: auto;
 
     margin: 3%;
     padding: 3%;
