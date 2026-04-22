@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
 }
 .container .order .plating {
     flex: 1;
@@ -62,12 +61,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
 }
 .container .order .stack .waffl {
     flex: 1;
 
     min-width: 250%;
+    height: fit-content;
 
     margin: 5%;
     padding: 10%;
