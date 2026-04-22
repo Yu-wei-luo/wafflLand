@@ -11,7 +11,7 @@ function eatWaffl() {
     const container = document.getElementById("plate");
 
     if (container.lastElementChild != null) {
-        container.removeChild(lastElementChild);
+        container.removeChild(container.lastElementChild);
     }
 }
 
