@@ -1,0 +1,8 @@
+function orderWaffl() {
+
+}
+
+
+function eatWaffl() {
+    
+}
