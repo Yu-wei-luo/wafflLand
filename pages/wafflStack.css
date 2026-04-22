@@ -47,7 +47,8 @@
 .container .order .plating {
     flex: 1;
 
-    min-width: fit-content;
+    flex: 0 0 40%;
+    max-width: 40%;
 
     margin: 5%;
     padding: 10%;
