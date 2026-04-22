@@ -57,6 +57,8 @@ header {
 }
 button {
     background-color: whitesmoke;
+
+    font-family: "Sour Gummy", sans-serif;
 }
 footer {
     font-size: small;
