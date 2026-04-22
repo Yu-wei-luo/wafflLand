@@ -52,12 +52,16 @@
     background-color: #d1d9e2;
 }
 .container .order .stack {
+    min-width: auto;
+    
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 .container .order .stack .waffl {
     flex: 1;
+
+    min-width: auto;
 
     margin: 3%;
     padding: 3%;
