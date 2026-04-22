@@ -3,7 +3,7 @@ function orderWaffl() {
 
     const waffl = document.createElement("div");
     waffl.className = "waffl";
-    waffl.textContent = "Waffl"
+    waffl.textContent = "Waffl";
 
     container.appendChild(waffl);
 }
@@ -12,7 +12,7 @@ function orderWaffl() {
 function eatWaffl() {
     const container = document.getElementById("plate");
 
-    if (container.lastElementChild) {
+    if (container.lastElementChild != null) {
         container.removeChild(lastElementChild);
     }
 }
