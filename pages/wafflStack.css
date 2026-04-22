@@ -14,7 +14,7 @@
     display: flex;
     flex: 1;
     min-width: auto;
-    max-width: auto;
+    max-width: fit-content;
 
     margin: 3%;
     padding: 3%;
@@ -22,7 +22,7 @@
 .container > div .waffle {
     flex: 1;
     min-width: auto;
-    max-width: auto;
+    max-width: fit-content;
 
     margin: 3%;
     padding: 3%;
