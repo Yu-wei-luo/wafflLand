@@ -7,8 +7,6 @@ function orderWaffl() {
 
     container.appendChild(waffl);
 }
-
-
 function eatWaffl() {
     const container = document.getElementById("plate");
 
@@ -16,3 +14,9 @@ function eatWaffl() {
         container.removeChild(lastElementChild);
     }
 }
+
+const orderButton = document.getElementById("orderButton");
+const eatButton = document.getElementById("eatButton");
+
+orderButton.addEventListener("click", orderWaffl);
+eatButton.addEventListener("click", eatWaffl);
