@@ -32,3 +32,6 @@
 
     background-color: #ffe863;
 }
+.header {
+    display: flex;
+}
