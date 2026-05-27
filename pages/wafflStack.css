@@ -6,6 +6,7 @@
 .container > div {
     display: flex;
     flex: 0;
+    justify-content: center;
     min-width: fit-content;
 
     margin: 3%;
