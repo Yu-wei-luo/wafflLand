@@ -80,6 +80,7 @@
     background-color: #efcd8e;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .header > div {
     flex: 1;
